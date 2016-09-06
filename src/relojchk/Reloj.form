@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="49" green="46" red="3b" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="hbox5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="hbox6" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="hbox4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="hbox3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="hbox13" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="hbox2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="hbox1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="hbox12" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="hbox11" min="-2" max="-2" attributes="0"/>
+                      <Component id="hbox10" min="-2" max="-2" attributes="0"/>
+                      <Component id="hbox9" min="-2" max="-2" attributes="0"/>
+                      <Component id="hbox8" min="-2" max="-2" attributes="0"/>
+                      <Component id="hbox7" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="hbox18" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="hbox19" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="hbox17" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="hbox16" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="hbox26" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="hbox15" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="hbox14" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="hbox25" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="hbox24" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="hbox20" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="hbox22" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="hbox23" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="hbox21" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="p2" min="-2" max="-2" attributes="0"/>
+                              <Component id="p1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="mbox5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="mbox6" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="mbox4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="mbox3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="mbox13" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="mbox2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="mbox1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="mbox12" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="mbox11" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="mbox10" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="mbox9" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="mbox8" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="mbox7" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="mbox18" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="mbox19" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="mbox17" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="mbox16" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="mbox26" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="mbox15" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="mbox14" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="mbox25" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="mbox24" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="mbox23" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="mbox22" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="mbox21" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="mbox20" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="p3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="p4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="cbox1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbox12" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="cbox11" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="cbox2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="cbox10" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="cbox5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbox6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="cbox7" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="cbox3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbox13" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="cbox9" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="cbox4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="cbox8" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="cbox18" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbox19" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="cbox17" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbox15" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="cbox16" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbox26" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="cbox14" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbox25" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="cbox24" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbox22" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbox21" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbox20" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbox23" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="hbox1" min="-2" max="-2" attributes="0"/>
+                              <Component id="hbox11" min="-2" max="-2" attributes="0"/>
+                              <Component id="hbox12" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="hbox2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="hbox3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="hbox13" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="hbox4" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="hbox5" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="hbox6" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="hbox7" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="hbox8" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="hbox9" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="hbox10" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="hbox14" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="hbox24" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="hbox25" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="hbox15" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="hbox16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="hbox26" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="hbox17" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="hbox18" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="hbox19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="hbox20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="hbox21" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="hbox22" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="hbox23" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="p1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="p2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="mbox14" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="mbox24" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="mbox25" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="mbox15" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="mbox16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="mbox26" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="mbox17" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="mbox18" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="mbox19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="mbox20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="mbox21" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="mbox22" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="mbox23" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="p3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="p4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="cbox1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbox2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="cbox24" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbox23" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cbox13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="cbox22" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="cbox21" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cbox6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cbox5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cbox7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cbox18" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cbox19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cbox20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="cbox3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbox4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cbox11" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cbox12" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cbox14" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cbox25" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbox10" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="cbox15" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="cbox9" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbox8" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="cbox17" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="cbox26" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cbox16" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="mbox1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="mbox11" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="mbox12" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="mbox2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="mbox3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="mbox13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="mbox4" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="mbox5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="mbox6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="mbox7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="mbox8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="mbox9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="mbox10" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="57" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JCheckBox" name="mbox22">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox2">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox18">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox3">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox23">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox4">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox19">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox5">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox21">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox24">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox22">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox6">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox23">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox24">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox25">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox26">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="dd" green="1d" red="8e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malayalam MN" size="36" style="3"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="La Hora es:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox1">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox2">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox3">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox4">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox5">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox6">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox7">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox8">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox9">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox10">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox11">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox12">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox13">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox15">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox20">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox16">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox7">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox17">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox25">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox8">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox21">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox26">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox1">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox2">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox6">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="p1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox22">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox18">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox23">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox19">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox24">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox20">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox25">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox21">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="p2">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox26">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="p3">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hbox14">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="p4">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox3">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox4">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox5">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox7">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox8">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox9">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox10">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox14">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox9">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox10">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox11">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox12">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox13">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox15">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox16">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox11">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox1">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox12">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="mbox17">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox13">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox14">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox15">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox16">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox17">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox18">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox19">
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbox20">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
