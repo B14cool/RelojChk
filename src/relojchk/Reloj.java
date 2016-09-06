@@ -16,11 +16,20 @@ public class Reloj extends javax.swing.JFrame implements Runnable {
 
     public Reloj() {
         initComponents();
+        initPoints();
 
         setLocationRelativeTo(null);
         setVisible(true);
         hilo = new Thread(this);
         hilo.start();
+    }
+    
+    public void initPoints(){
+        p1.setSelected(true);
+        p2.setSelected(true);
+        
+        p3.setSelected(true);
+        p4.setSelected(true);
     }
 
     @Override
@@ -33,15 +42,14 @@ public class Reloj extends javax.swing.JFrame implements Runnable {
             dameLaHora(); // ;)
 
             try {
-                Thread .sleep(1000);
+                Thread.sleep(1000);
             } catch (Exception e) {
 
             }
         }
     }
     /**
-     * @param void
-     * @return void
+     * 
      * Se encarga de calcular la hora. Método encapsulado para que se vea más ordenado
      */
     public void dameLaHora(){
@@ -3942,14 +3950,17 @@ public class Reloj extends javax.swing.JFrame implements Runnable {
         cbox18 = new javax.swing.JCheckBox();
         cbox19 = new javax.swing.JCheckBox();
         cbox20 = new javax.swing.JCheckBox();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(59, 70, 73));
+        jPanel1.setBackground(new java.awt.Color(18, 17, 16));
+        jPanel1.setForeground(new java.awt.Color(0, 51, 255));
 
         jLabel1.setBackground(new java.awt.Color(142, 29, 221));
         jLabel1.setFont(new java.awt.Font("Malayalam MN", 3, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("La Hora es:");
 
@@ -3976,6 +3987,10 @@ public class Reloj extends javax.swing.JFrame implements Runnable {
                 p4ActionPerformed(evt);
             }
         });
+
+        jLabel2.setFont(new java.awt.Font("Lucida Grande", 3, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(61, 125, 2));
+        jLabel2.setText("Hola Chriss ;)");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -4088,54 +4103,59 @@ public class Reloj extends javax.swing.JFrame implements Runnable {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(cbox1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cbox12)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(cbox11))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(cbox2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(cbox10))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(cbox5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cbox6)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(cbox7))
+                        .addComponent(jLabel2)
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(cbox3)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(cbox1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(cbox12)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(cbox11))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(cbox2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(cbox10))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(cbox5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(cbox6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(cbox7))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(cbox3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(cbox13)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(cbox9))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(cbox4)
+                                .addGap(40, 40, 40)
+                                .addComponent(cbox8)))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(cbox18)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(cbox19))
+                            .addComponent(cbox17)
+                            .addComponent(cbox15)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(cbox16)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(cbox26))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(cbox14)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(cbox25)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cbox13)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(cbox9))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(cbox4)
-                        .addGap(40, 40, 40)
-                        .addComponent(cbox8)))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(cbox18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cbox19))
-                    .addComponent(cbox17)
-                    .addComponent(cbox15)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(cbox16)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cbox26))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(cbox14)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cbox25)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(cbox24)
-                    .addComponent(cbox22)
-                    .addComponent(cbox21)
-                    .addComponent(cbox20)
-                    .addComponent(cbox23)))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(cbox24)
+                            .addComponent(cbox22)
+                            .addComponent(cbox21)
+                            .addComponent(cbox20)
+                            .addComponent(cbox23)))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -4315,18 +4335,24 @@ public class Reloj extends javax.swing.JFrame implements Runnable {
                                             .addComponent(mbox8)))
                                     .addComponent(mbox9)))
                             .addComponent(mbox10))))
-                .addContainerGap(57, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(jLabel2)
+                .addContainerGap(23, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(15, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(20, Short.MAX_VALUE))
         );
 
         pack();
@@ -4403,6 +4429,7 @@ public class Reloj extends javax.swing.JFrame implements Runnable {
     private javax.swing.JCheckBox hbox8;
     private javax.swing.JCheckBox hbox9;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JCheckBox mbox1;
     private javax.swing.JCheckBox mbox10;
