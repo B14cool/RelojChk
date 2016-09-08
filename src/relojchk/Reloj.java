@@ -40,6 +40,7 @@ public class Reloj extends javax.swing.JFrame implements Runnable {
         while (thread == hilo) {
             
             dameLaHora(); // ;)
+            relojito();
 
             try {
                 Thread.sleep(1000);
@@ -47,6 +48,11 @@ public class Reloj extends javax.swing.JFrame implements Runnable {
 
             }
         }
+    }
+    
+    
+    public void relojito(){
+        lblRelojito.setText(hora + "   : " + minuto + "    : " + segundos );
     }
     /**
      * 
@@ -3866,516 +3872,258 @@ public class Reloj extends javax.swing.JFrame implements Runnable {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        mbox22 = new javax.swing.JCheckBox();
-        mbox2 = new javax.swing.JCheckBox();
-        mbox18 = new javax.swing.JCheckBox();
-        mbox3 = new javax.swing.JCheckBox();
-        mbox23 = new javax.swing.JCheckBox();
-        mbox4 = new javax.swing.JCheckBox();
-        mbox19 = new javax.swing.JCheckBox();
-        mbox5 = new javax.swing.JCheckBox();
-        cbox21 = new javax.swing.JCheckBox();
-        mbox24 = new javax.swing.JCheckBox();
-        cbox22 = new javax.swing.JCheckBox();
-        mbox6 = new javax.swing.JCheckBox();
-        cbox23 = new javax.swing.JCheckBox();
-        cbox24 = new javax.swing.JCheckBox();
-        cbox25 = new javax.swing.JCheckBox();
-        cbox26 = new javax.swing.JCheckBox();
         jLabel1 = new javax.swing.JLabel();
-        hbox1 = new javax.swing.JCheckBox();
-        hbox2 = new javax.swing.JCheckBox();
-        hbox3 = new javax.swing.JCheckBox();
-        hbox4 = new javax.swing.JCheckBox();
+        lblRelojito = new javax.swing.JLabel();
         hbox5 = new javax.swing.JCheckBox();
+        hbox4 = new javax.swing.JCheckBox();
+        hbox3 = new javax.swing.JCheckBox();
+        hbox2 = new javax.swing.JCheckBox();
+        hbox1 = new javax.swing.JCheckBox();
         hbox6 = new javax.swing.JCheckBox();
-        hbox7 = new javax.swing.JCheckBox();
-        hbox8 = new javax.swing.JCheckBox();
-        hbox9 = new javax.swing.JCheckBox();
-        hbox10 = new javax.swing.JCheckBox();
-        hbox11 = new javax.swing.JCheckBox();
-        hbox12 = new javax.swing.JCheckBox();
         hbox13 = new javax.swing.JCheckBox();
-        hbox15 = new javax.swing.JCheckBox();
-        mbox20 = new javax.swing.JCheckBox();
-        hbox16 = new javax.swing.JCheckBox();
-        mbox7 = new javax.swing.JCheckBox();
+        hbox12 = new javax.swing.JCheckBox();
+        hbox11 = new javax.swing.JCheckBox();
+        hbox10 = new javax.swing.JCheckBox();
+        hbox9 = new javax.swing.JCheckBox();
+        hbox8 = new javax.swing.JCheckBox();
+        hbox7 = new javax.swing.JCheckBox();
+        hbox18 = new javax.swing.JCheckBox();
         hbox17 = new javax.swing.JCheckBox();
-        mbox25 = new javax.swing.JCheckBox();
+        hbox16 = new javax.swing.JCheckBox();
+        hbox15 = new javax.swing.JCheckBox();
+        hbox14 = new javax.swing.JCheckBox();
+        hbox25 = new javax.swing.JCheckBox();
+        hbox24 = new javax.swing.JCheckBox();
+        hbox23 = new javax.swing.JCheckBox();
+        hbox22 = new javax.swing.JCheckBox();
+        hbox26 = new javax.swing.JCheckBox();
+        hbox19 = new javax.swing.JCheckBox();
+        hbox20 = new javax.swing.JCheckBox();
+        hbox21 = new javax.swing.JCheckBox();
+        p1 = new javax.swing.JCheckBox();
+        p2 = new javax.swing.JCheckBox();
+        mbox4 = new javax.swing.JCheckBox();
+        mbox3 = new javax.swing.JCheckBox();
+        mbox2 = new javax.swing.JCheckBox();
+        mbox1 = new javax.swing.JCheckBox();
+        mbox12 = new javax.swing.JCheckBox();
+        mbox11 = new javax.swing.JCheckBox();
+        mbox10 = new javax.swing.JCheckBox();
+        mbox9 = new javax.swing.JCheckBox();
+        mbox13 = new javax.swing.JCheckBox();
         mbox8 = new javax.swing.JCheckBox();
-        mbox21 = new javax.swing.JCheckBox();
+        mbox7 = new javax.swing.JCheckBox();
+        mbox6 = new javax.swing.JCheckBox();
+        mbox5 = new javax.swing.JCheckBox();
+        mbox18 = new javax.swing.JCheckBox();
+        mbox17 = new javax.swing.JCheckBox();
+        mbox16 = new javax.swing.JCheckBox();
+        mbox15 = new javax.swing.JCheckBox();
+        mbox14 = new javax.swing.JCheckBox();
+        mbox25 = new javax.swing.JCheckBox();
+        mbox24 = new javax.swing.JCheckBox();
+        mbox23 = new javax.swing.JCheckBox();
+        mbox22 = new javax.swing.JCheckBox();
         mbox26 = new javax.swing.JCheckBox();
+        mbox19 = new javax.swing.JCheckBox();
+        mbox20 = new javax.swing.JCheckBox();
+        mbox21 = new javax.swing.JCheckBox();
+        p4 = new javax.swing.JCheckBox();
+        p3 = new javax.swing.JCheckBox();
         cbox1 = new javax.swing.JCheckBox();
         cbox2 = new javax.swing.JCheckBox();
-        cbox6 = new javax.swing.JCheckBox();
-        p1 = new javax.swing.JCheckBox();
-        hbox22 = new javax.swing.JCheckBox();
-        hbox18 = new javax.swing.JCheckBox();
-        hbox23 = new javax.swing.JCheckBox();
-        hbox19 = new javax.swing.JCheckBox();
-        hbox24 = new javax.swing.JCheckBox();
-        hbox20 = new javax.swing.JCheckBox();
-        hbox25 = new javax.swing.JCheckBox();
-        hbox21 = new javax.swing.JCheckBox();
-        p2 = new javax.swing.JCheckBox();
-        hbox26 = new javax.swing.JCheckBox();
-        p3 = new javax.swing.JCheckBox();
-        hbox14 = new javax.swing.JCheckBox();
-        p4 = new javax.swing.JCheckBox();
         cbox3 = new javax.swing.JCheckBox();
         cbox4 = new javax.swing.JCheckBox();
         cbox5 = new javax.swing.JCheckBox();
+        cbox6 = new javax.swing.JCheckBox();
         cbox7 = new javax.swing.JCheckBox();
         cbox8 = new javax.swing.JCheckBox();
         cbox9 = new javax.swing.JCheckBox();
         cbox10 = new javax.swing.JCheckBox();
-        mbox14 = new javax.swing.JCheckBox();
-        mbox9 = new javax.swing.JCheckBox();
-        mbox10 = new javax.swing.JCheckBox();
-        mbox11 = new javax.swing.JCheckBox();
-        mbox12 = new javax.swing.JCheckBox();
-        mbox13 = new javax.swing.JCheckBox();
-        mbox15 = new javax.swing.JCheckBox();
-        mbox16 = new javax.swing.JCheckBox();
         cbox11 = new javax.swing.JCheckBox();
-        mbox1 = new javax.swing.JCheckBox();
         cbox12 = new javax.swing.JCheckBox();
-        mbox17 = new javax.swing.JCheckBox();
         cbox13 = new javax.swing.JCheckBox();
         cbox14 = new javax.swing.JCheckBox();
-        cbox15 = new javax.swing.JCheckBox();
-        cbox16 = new javax.swing.JCheckBox();
-        cbox17 = new javax.swing.JCheckBox();
-        cbox18 = new javax.swing.JCheckBox();
-        cbox19 = new javax.swing.JCheckBox();
+        cbox25 = new javax.swing.JCheckBox();
+        cbox24 = new javax.swing.JCheckBox();
+        cbox23 = new javax.swing.JCheckBox();
+        cbox22 = new javax.swing.JCheckBox();
+        cbox21 = new javax.swing.JCheckBox();
         cbox20 = new javax.swing.JCheckBox();
-        jLabel2 = new javax.swing.JLabel();
+        cbox19 = new javax.swing.JCheckBox();
+        cbox18 = new javax.swing.JCheckBox();
+        cbox17 = new javax.swing.JCheckBox();
+        cbox16 = new javax.swing.JCheckBox();
+        cbox26 = new javax.swing.JCheckBox();
+        botonSalir = new javax.swing.JButton();
+        cbox15 = new javax.swing.JCheckBox();
+        lblFondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
-
-        jPanel1.setBackground(new java.awt.Color(18, 17, 16));
-        jPanel1.setForeground(new java.awt.Color(0, 51, 255));
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setBackground(new java.awt.Color(142, 29, 221));
         jLabel1.setFont(new java.awt.Font("Malayalam MN", 3, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("La Hora es:");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, 790, -1));
+
+        lblRelojito.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        lblRelojito.setForeground(new java.awt.Color(255, 255, 255));
+        lblRelojito.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Relojito", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Lucida Grande", 3, 13), new java.awt.Color(255, 255, 255))); // NOI18N
+        lblRelojito.setName(""); // NOI18N
+        getContentPane().add(lblRelojito, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 235, 242, 53));
+        getContentPane().add(hbox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 179, -1, -1));
+        getContentPane().add(hbox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 150, -1, -1));
+        getContentPane().add(hbox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 121, -1, -1));
+        getContentPane().add(hbox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 92, -1, -1));
+        getContentPane().add(hbox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 63, -1, -1));
+        getContentPane().add(hbox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(59, 179, -1, -1));
+        getContentPane().add(hbox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(59, 121, -1, -1));
+        getContentPane().add(hbox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(59, 63, -1, -1));
+        getContentPane().add(hbox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(93, 63, -1, -1));
+        getContentPane().add(hbox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(93, 92, -1, -1));
+        getContentPane().add(hbox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(93, 121, -1, -1));
+        getContentPane().add(hbox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(93, 150, -1, -1));
+        getContentPane().add(hbox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(93, 179, -1, -1));
+        getContentPane().add(hbox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 179, -1, -1));
+        getContentPane().add(hbox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 150, -1, -1));
+        getContentPane().add(hbox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 121, -1, -1));
+        getContentPane().add(hbox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 92, -1, -1));
+        getContentPane().add(hbox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 63, -1, -1));
+        getContentPane().add(hbox25, new org.netbeans.lib.awtextra.AbsoluteConstraints(173, 63, -1, -1));
+        getContentPane().add(hbox24, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 63, -1, -1));
+        getContentPane().add(hbox23, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 92, -1, -1));
+        getContentPane().add(hbox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 121, -1, -1));
+        getContentPane().add(hbox26, new org.netbeans.lib.awtextra.AbsoluteConstraints(173, 121, -1, -1));
+        getContentPane().add(hbox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(173, 179, -1, -1));
+        getContentPane().add(hbox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 179, -1, -1));
+        getContentPane().add(hbox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 150, -1, -1));
 
         p1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 p1ActionPerformed(evt);
             }
         });
+        getContentPane().add(p1, new org.netbeans.lib.awtextra.AbsoluteConstraints(247, 92, -1, -1));
 
         p2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 p2ActionPerformed(evt);
             }
         });
-
-        p3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                p3ActionPerformed(evt);
-            }
-        });
+        getContentPane().add(p2, new org.netbeans.lib.awtextra.AbsoluteConstraints(247, 150, -1, -1));
+        getContentPane().add(mbox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 150, -1, -1));
+        getContentPane().add(mbox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 121, -1, -1));
+        getContentPane().add(mbox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 92, -1, -1));
+        getContentPane().add(mbox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 63, -1, -1));
+        getContentPane().add(mbox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(315, 63, -1, -1));
+        getContentPane().add(mbox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(349, 63, -1, -1));
+        getContentPane().add(mbox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(349, 92, -1, -1));
+        getContentPane().add(mbox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(349, 121, -1, -1));
+        getContentPane().add(mbox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(315, 121, -1, -1));
+        getContentPane().add(mbox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(349, 150, -1, -1));
+        getContentPane().add(mbox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(349, 179, -1, -1));
+        getContentPane().add(mbox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(315, 179, -1, -1));
+        getContentPane().add(mbox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 179, -1, -1));
+        getContentPane().add(mbox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(411, 179, -1, -1));
+        getContentPane().add(mbox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(411, 150, -1, -1));
+        getContentPane().add(mbox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(411, 121, -1, -1));
+        getContentPane().add(mbox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(411, 92, -1, -1));
+        getContentPane().add(mbox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(411, 63, -1, -1));
+        getContentPane().add(mbox25, new org.netbeans.lib.awtextra.AbsoluteConstraints(445, 63, -1, -1));
+        getContentPane().add(mbox24, new org.netbeans.lib.awtextra.AbsoluteConstraints(479, 63, -1, -1));
+        getContentPane().add(mbox23, new org.netbeans.lib.awtextra.AbsoluteConstraints(479, 92, -1, -1));
+        getContentPane().add(mbox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(479, 121, -1, -1));
+        getContentPane().add(mbox26, new org.netbeans.lib.awtextra.AbsoluteConstraints(445, 121, -1, -1));
+        getContentPane().add(mbox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(445, 179, -1, -1));
+        getContentPane().add(mbox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(479, 179, -1, -1));
+        getContentPane().add(mbox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(479, 150, -1, -1));
 
         p4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 p4ActionPerformed(evt);
             }
         });
+        getContentPane().add(p4, new org.netbeans.lib.awtextra.AbsoluteConstraints(513, 150, -1, -1));
 
-        jLabel2.setFont(new java.awt.Font("Lucida Grande", 3, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(61, 125, 2));
-        jLabel2.setText("Hola Chriss ;)");
+        p3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                p3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(p3, new org.netbeans.lib.awtextra.AbsoluteConstraints(513, 92, -1, -1));
+        getContentPane().add(cbox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(547, 63, -1, -1));
+        getContentPane().add(cbox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(547, 92, -1, -1));
+        getContentPane().add(cbox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(547, 121, -1, -1));
+        getContentPane().add(cbox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 150, -1, -1));
+        getContentPane().add(cbox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(547, 179, -1, -1));
+        getContentPane().add(cbox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(581, 179, -1, -1));
+        getContentPane().add(cbox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 180, -1, -1));
+        getContentPane().add(cbox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 150, -1, -1));
+        getContentPane().add(cbox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 120, -1, -1));
+        getContentPane().add(cbox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 90, -1, -1));
+        getContentPane().add(cbox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 70, -1, -1));
+        getContentPane().add(cbox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(581, 63, -1, -1));
+        getContentPane().add(cbox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(581, 121, -1, -1));
+        getContentPane().add(cbox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 70, -1, -1));
+        getContentPane().add(cbox25, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 70, -1, -1));
+        getContentPane().add(cbox24, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 70, -1, -1));
+        getContentPane().add(cbox23, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 90, -1, -1));
+        getContentPane().add(cbox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 120, -1, -1));
+        getContentPane().add(cbox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 150, -1, -1));
+        getContentPane().add(cbox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 180, -1, -1));
+        getContentPane().add(cbox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 180, -1, -1));
+        getContentPane().add(cbox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 180, -1, -1));
+        getContentPane().add(cbox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 150, -1, -1));
+        getContentPane().add(cbox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 120, -1, -1));
+        getContentPane().add(cbox26, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 120, -1, -1));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(28, 28, 28)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(hbox5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(hbox6))
-                    .addComponent(hbox4)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(hbox3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(hbox13))
-                    .addComponent(hbox2)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(hbox1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(hbox12)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(hbox11)
-                    .addComponent(hbox10)
-                    .addComponent(hbox9)
-                    .addComponent(hbox8)
-                    .addComponent(hbox7))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(hbox18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(hbox19))
-                    .addComponent(hbox17)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(hbox16)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(hbox26))
-                    .addComponent(hbox15)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(hbox14)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(hbox25)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(hbox24)
-                    .addComponent(hbox20)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(hbox22)
-                            .addComponent(hbox23)
-                            .addComponent(hbox21))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(p2)
-                            .addComponent(p1))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(mbox5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(mbox6))
-                    .addComponent(mbox4)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(mbox3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(mbox13))
-                    .addComponent(mbox2)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(mbox1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(mbox12)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(mbox11)
-                    .addComponent(mbox10)
-                    .addComponent(mbox9)
-                    .addComponent(mbox8)
-                    .addComponent(mbox7))
-                .addGap(34, 34, 34)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(mbox18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(mbox19))
-                    .addComponent(mbox17)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(mbox16)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(mbox26))
-                    .addComponent(mbox15)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(mbox14)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(mbox25)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(mbox24)
-                    .addComponent(mbox23)
-                    .addComponent(mbox22)
-                    .addComponent(mbox21)
-                    .addComponent(mbox20))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(p3)
-                    .addComponent(p4))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(cbox1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cbox12)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(cbox11))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addComponent(cbox2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(cbox10))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addComponent(cbox5)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cbox6)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(cbox7))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(cbox3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cbox13)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(cbox9))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addComponent(cbox4)
-                                .addGap(40, 40, 40)
-                                .addComponent(cbox8)))
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(cbox18)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cbox19))
-                            .addComponent(cbox17)
-                            .addComponent(cbox15)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(cbox16)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cbox26))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(cbox14)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cbox25)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(cbox24)
-                            .addComponent(cbox22)
-                            .addComponent(cbox21)
-                            .addComponent(cbox20)
-                            .addComponent(cbox23)))))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(14, 14, 14)
-                .addComponent(jLabel1)
-                .addGap(36, 36, 36)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(hbox1)
-                            .addComponent(hbox11)
-                            .addComponent(hbox12))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(hbox2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(hbox3)
-                                            .addComponent(hbox13))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addComponent(hbox4)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(hbox5)
-                                                    .addComponent(hbox6)
-                                                    .addComponent(hbox7)))
-                                            .addComponent(hbox8)))
-                                    .addComponent(hbox9)))
-                            .addComponent(hbox10)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(hbox14)
-                            .addComponent(hbox24)
-                            .addComponent(hbox25))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(hbox15)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(hbox16)
-                                            .addComponent(hbox26))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addComponent(hbox17)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(hbox18)
-                                                    .addComponent(hbox19)
-                                                    .addComponent(hbox20)))
-                                            .addComponent(hbox21)))
-                                    .addComponent(hbox22)))
-                            .addComponent(hbox23)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(p1)
-                                .addGap(35, 35, 35)
-                                .addComponent(p2))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(mbox14)
-                            .addComponent(mbox24)
-                            .addComponent(mbox25))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(mbox15)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(mbox16)
-                                            .addComponent(mbox26))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addComponent(mbox17)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(mbox18)
-                                                    .addComponent(mbox19)
-                                                    .addComponent(mbox20)))
-                                            .addComponent(mbox21)))
-                                    .addComponent(mbox22)))
-                            .addComponent(mbox23)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(p3)
-                                .addGap(35, 35, 35)
-                                .addComponent(p4))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(cbox1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cbox2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addComponent(cbox24)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cbox23)
-                                .addGap(6, 6, 6)))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(cbox13)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                        .addComponent(cbox22)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(cbox21)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(cbox6)
-                                    .addComponent(cbox5)
-                                    .addComponent(cbox7)
-                                    .addComponent(cbox18)
-                                    .addComponent(cbox19)
-                                    .addComponent(cbox20)))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(cbox3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cbox4))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(cbox11)
-                                    .addComponent(cbox12)
-                                    .addComponent(cbox14)
-                                    .addComponent(cbox25))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cbox10))
-                            .addComponent(cbox15))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(cbox9)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cbox8))
-                            .addComponent(cbox17)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(cbox26)
-                                    .addComponent(cbox16))
-                                .addGap(29, 29, 29))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(mbox1)
-                            .addComponent(mbox11)
-                            .addComponent(mbox12))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(mbox2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(mbox3)
-                                            .addComponent(mbox13))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addComponent(mbox4)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(mbox5)
-                                                    .addComponent(mbox6)
-                                                    .addComponent(mbox7)))
-                                            .addComponent(mbox8)))
-                                    .addComponent(mbox9)))
-                            .addComponent(mbox10))))
-                .addGap(18, 18, 18)
-                .addComponent(jLabel2)
-                .addContainerGap(23, Short.MAX_VALUE))
-        );
+        botonSalir.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
+        botonSalir.setForeground(new java.awt.Color(255, 255, 255));
+        botonSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/stop-flat.png"))); // NOI18N
+        botonSalir.setText("Parar");
+        botonSalir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonSalirActionPerformed(evt);
+            }
+        });
+        getContentPane().add(botonSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 260, 150, 120));
+        getContentPane().add(cbox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 90, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(15, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(20, Short.MAX_VALUE))
-        );
+        lblFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Circuit Board Wallpaper.jpg"))); // NOI18N
+        lblFondo.setText("jLabel3");
+        lblFondo.setOpaque(true);
+        getContentPane().add(lblFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 870, 430));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void p1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p1ActionPerformed
-        // TODO add your handling code he
-    }//GEN-LAST:event_p1ActionPerformed
-
-    private void p2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_p2ActionPerformed
-
-    private void p3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_p3ActionPerformed
 
     private void p4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p4ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_p4ActionPerformed
 
+    private void p3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_p3ActionPerformed
+
+    private void p2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_p2ActionPerformed
+
+    private void p1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p1ActionPerformed
+        // TODO add your handling code he
+    }//GEN-LAST:event_p1ActionPerformed
+
+    private void botonSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonSalirActionPerformed
+        System.exit(0);
+    }//GEN-LAST:event_botonSalirActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton botonSalir;
     private javax.swing.JCheckBox cbox1;
     private javax.swing.JCheckBox cbox10;
     private javax.swing.JCheckBox cbox11;
@@ -4429,8 +4177,8 @@ public class Reloj extends javax.swing.JFrame implements Runnable {
     private javax.swing.JCheckBox hbox8;
     private javax.swing.JCheckBox hbox9;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel lblFondo;
+    private javax.swing.JLabel lblRelojito;
     private javax.swing.JCheckBox mbox1;
     private javax.swing.JCheckBox mbox10;
     private javax.swing.JCheckBox mbox11;
